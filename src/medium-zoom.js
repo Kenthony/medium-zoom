@@ -180,7 +180,7 @@ const mediumZoom = (selector, options = {}) => {
     const _animate = () => {
       let container = {
         width: document.documentElement.clientWidth,
-        height: document.documentElement.clientHeight,
+        height: window.innerHeight,
         left: 0,
         top: 0,
         right: 0,
